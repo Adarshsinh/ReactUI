@@ -10,7 +10,7 @@ function Navbar() {
             <MdFastfood className="w-[25px] h-[25px] text-green-500"/>
         </div>
 
-            <div className="w-[40%] h-[45px] pl-3 flex item-center bg-white rounded-2xl shadow-md">
+            <div className="w-[40%] h-[45px] pl-3 flex item-center bg-white rounded shadow-md">
                 <input 
                 type="text" 
                 placeholder="Search your food...." 
@@ -19,7 +19,8 @@ function Navbar() {
                 <IoMdSearch className="w-[35px] h-[35px] pt-2 pr-2 text-green-500"/>
             </div>
 
-        <div className="w-[50px] pt-2.5 flex justify-center item-center bg-white rounded shadow-xl">
+        <div className="w-[50px] pt-2.5 flex justify-center item-center bg-white rounded relative shadow-xl">
+            <span className="absolute top-0 right-1 text-green-500 font-semibold "> 0</span>
             <MdOutlineShoppingCart className="w-[25px] h-[25px] text-green-500"/>
         </div>
 
