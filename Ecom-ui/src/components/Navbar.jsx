@@ -1,8 +1,13 @@
 import { MdFastfood } from "react-icons/md";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoMdSearch } from "react-icons/io";
+import { useContext } from "react";
+import Context from "../Context";
 
 function Navbar() {
+
+      const { input,setInput } = useContext(Context)
+
   return (
 
     <div className="w-full h-[70px] p-3  flex justify-between item-center">
@@ -15,6 +20,8 @@ function Navbar() {
                 type="text" 
                 placeholder="Search your food...." 
                 className="w-[100%] h-[40px] outline-none " 
+                value={input}
+                onChange={(e)=>setInput(e.target.value)}
                 />
                 <IoMdSearch className="w-[35px] h-[35px] pt-2 pr-2 text-green-500"/>
             </div>

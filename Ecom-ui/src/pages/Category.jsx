@@ -14,37 +14,37 @@ const categories=[
     },
      {
         id:2,
-        name:'Breakfast',
+        name:'breakfast',
         icon:<MdFreeBreakfast className="w-[50px] h-[50px] text-green-500" />
 
     },
      {
         id:3,
-        name:'Soups',
+        name:'soups',
         icon:<TbSoup className="w-[50px] h-[50px] text-green-500"/>
 
     },
      {
         id:4,
-        name:'Pasta',
+        name:'pasta',
         icon:<CiBowlNoodles className="w-[50px] h-[50px] text-green-500"/>
 
     },
      {
         id:5,
-        name:'Main-course',
+        name:'main_course',
         icon:<MdOutlineFoodBank className="w-[50px] h-[50px] text-green-500"/>
 
     },
      {
         id:6,
-        name:'Pizza',
+        name:'pizza',
         icon:<LiaPizzaSliceSolid className="w-[50px] h-[50px] text-green-500"/>
 
     },
      {
         id:7,
-        name:'Burger',
+        name:'burger',
         icon:<PiHamburger className="w-[50px] h-[50px] text-green-500"/>
 
     }

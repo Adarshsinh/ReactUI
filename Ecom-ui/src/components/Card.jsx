@@ -3,6 +3,7 @@ import { PiLeafBold } from "react-icons/pi";
 import { GiChickenOven } from "react-icons/gi";
 
 
+
 function Card({name,image,id,price,type }) {
   return (
     <div className="w-[197px] rounded p-2 bg-white hover:bg-gray-200 cursor-pointer ">
